@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Classes</title>
+    <style>
+        /* 
+        Anotações IMPORTANTE DE TODO O CODIGO
+        # = id
+        . = class
+        : = pseudo-class
+        :: = pseudo-element
+        > = filho
+        Tag  hover, significar que quando passar o mouse em cima vai ter uma ação.
+        Tag none, significar que ele podo ucultar alguma informação.
+        Tag block, significar que ela vai exibir alguma informação.
+        */
+        
+        div {
+            background-color: darkgrey;
+            display: inline-block;
+            border: 3px solid rgba(248, 3, 236, 0.582);
+            text-align: center;
+            margin-left: 300px;
+            height: 200px;
+            width: 200px;
+        }
+        
+        #d1:hover {
+            background-color: chartreuse;
+            color: cyan;
+            border: 10px solid rgb(248, 232, 3);
+            text-align: center;
+            height: 200px;
+            width: 200px;
+        }
+        
+        #d2:hover {
+            background-color: rgb(47, 0, 255);
+            color: rgb(255, 0, 0);
+            border: 20px solid rgb(248, 113, 3);
+            text-align: left;
+            height: 200px;
+            width: 200px;
+        }
+        
+        #d3:hover {
+            background-color: rgb(255, 0, 191);
+            color: rgb(72, 255, 0);
+            border: 30px solid rgb(3, 248, 187);
+            text-align: right;
+            height: 200px;
+            width: 200px;
+        }
+        
+        div>p {
+            display: none;
+        }
+        
+        div:hover>p {
+            display: block;
+            color: white;
+            background-color: red;
+            width: 300px;
+        }
+        
+        div:hover {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="d1">1</div>
+    <div id="d2">2</div>
+    <div id="d3">3</div>
+
+    <h1>Exemplo de hover</h1>
+    <p>passe o mouse sobre o texto abaixo</p>
+    <div>
+        pase o moouse aqui
+        <p>TEXTO ESCONDIDO </p>
+    </div>
+    <p>Fim do exemplo</p>
+</body>
+
+</html>

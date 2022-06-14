@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+    <title>site</title>
+
+    <style>
+        body {
+            background-color: darkcyan
+        }
+        
+        h1 {
+            font-family: Arial;
+            color: cornflowerblue;
+            font-size: 30px;
+        }
+        
+        p {
+            font-family: Arial;
+            color: chartreuse;
+            font-size: 40px;
+            text-align: center;
+        }
+        
+        h2 {
+            font-family: Arial;
+            color: rgb(237, 100, 230);
+            font-size: 30px;
+        }
+        
+        h3 {
+            font-family: Arial;
+            color: rgb(237, 200, 100);
+            font-size: 30px;
+        }
+        
+        ol {
+            font-family: Arial;
+            color: rgb(237, 100, 100);
+            font-size: 20px;
+        }
+        
+        ul {
+            font-family: Arial;
+            color: rgb(223, 237, 100);
+            font-size: 20px;
+        }
+        
+        div {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Esse e &lt;meu&gt; primeiro documento em HTML estou muito feliz</p>
+    <p>Vamos adiciona simbolos especiais: &reg; &copy; &trade; &euro; &yen; &cent; &Delta; &uarr; &larr; &rarr; &darr; &sum;</p>
+    <p>vamos adicionar alguns emoji: &#x1F596; &#X1F913;</p>
+    <img src="html2.png" alt="figura do html">
+    <img src="css2.png" alt="figura do css">
+
+    <h1>Principais formatações</h1>
+    <h2>Negrito/Destaque</h2>
+    <p>Usando a tag b podemos estacar com negrito <b>exemplo só que ussando a tag b (nao e sematico).</b></p>
+    <p>Usando nesta frase, tenho um <strong>Destaque na frase</strong> ulilizando a tag strong podemos destacar (sendo assim sematico).</p>
+    <h2>Italico/Enfase</h2>
+    <p>nesta frase, temos um <i>texto em italico</i> usando a tag i (não sematica).</p>
+    <p>Nesta frase, temos um <em>termo em enfase</em> ultilizando a tag em (sematica).</p>
+    <p>Nesta frase, temos um <mark>marcação de marca texto amarela</mark> ultilizando a a tag mark.</p>
+    <h2>Testo excluido</h2>
+    <p>Podemos marcar <del>um texto com excluido</del> para indicar que ele dever ser lido, mas nao considerado.</p>
+    <h2>testo inserido</h2>
+    <p>Podemos marcar <ins>um texto como inserido</ins> para dar uma enfase e indicar que ele foi adicionado depois.</p>
+    <h1>trabalhando com listas</h1>
+    <h3>
+        <ol>
+            <li>pao</li>
+            <li>leite</li>
+            <li>arroz</li>
+        </ol>
+        <ul>
+            <li>macarrao</li>
+            <li>açucar</li>
+            <li>oleio</li>
+        </ul>
+
+        <ol>
+            <li>jogos que eu gosto</li>
+            <ol type="I">
+                <li>cs</li>
+                <li>call of duty</li>
+                <li>valorant</li>
+            </ol>
+
+            <li>jogos que eu nao gosto</li>
+            <ol type="I" start="4">
+                <li>lol</li>
+                <li>dota</li>
+                <li>free fira</li>
+            </ol>
+        </ol>
+        <h2>lista d e definição</h2>
+        <p>usamos a tag dl para definir uma lista de definção</p>
+        <dl>
+            <dt>termo</dt>
+            <dd>descrição</dd>
+        </dl>
+    </h3>
+
+    <h1>Colocando video no hospedado localmente</h1>
+    <p>para colocar o video e necessario coloar a tag &lt;video&gt;</p>
+    <div style="display:flex;">
+        <video width="500" controls>
+             <source  src="full.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <h1>inserindo videos do youtube</h1>
+    <p>para isso e necessario ir no video que deseja no youtube e copia o codigo html do video e so colocar no seu html usando a tag &lt;iframe&gt;</p>
+    <iframe width="700" height="110 " src="https://www.youtube.com/embed/X1qVuFHsJ1k " title="YouTube video player " frameborder="0 " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe>
+
+
+</body>
+
+</html>

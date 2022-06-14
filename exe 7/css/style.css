@@ -1,0 +1,27 @@
+@charset "UFT-8";
+
+/*
+em HTML é id no CSS é #
+em HTML é class no CSS é .
+E o id so pode ser usado uma só vez no HTML
+Já o class pode ser usado diverças vezes no HTML
+*/
+
+body {
+    background-color: rgb(205, 255, 203);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(4, 109, 0);
+}
+
+h1#principal {
+    text-align: center;
+    background-color: rgb(4, 109, 0);
+    color: white;
+}
+
+h2 {
+    color: rgb(51, 77, 49);
+}

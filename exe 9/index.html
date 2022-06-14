@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /*
+        Tag after, significar posso color texto em frase sem precisar mexer no html somente pelo css.
+        Tag active, siginificar que ela vai ser ativada quando clicar 
+        */
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(to right, #1b7f79, #747F7F);
+        }
+        
+        a {
+            color: rgb(226, 7, 255);
+            text-decoration: none;
+        }
+        
+        a:active {
+            color: yellow;
+        }
+        
+        a:visited {
+            color: darkorchid;
+        }
+        
+        a::after {
+            content: '[link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: rgb(14, 252, 6);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li>
+            <a href="https://www.youtube.com/channel/UCnVr1Q94kCo6YyRTu1Jw00g" target="_blank">Meu Youtuber</a>
+        </li>
+        <li>
+            <a href="https://www.facebook.com/profile.php?id=100011562751616" target="_blank">Meu Fecebook</a>
+        </li>
+        <li>
+            <a href="https://www.instagram.com/teus_1818/" target="_blank">Meu Instagram</a>
+        </li>
+    </ul>
+</body>
+
+</html>
+
+</html>

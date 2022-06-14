@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(165, 158, 158);
+            margin: 0px;
+        }
+        
+        header {
+            margin: 10px;
+            padding: 10px;
+            background-color: white;
+        }
+        
+        nav {
+            background-color: rgb(102, 102, 102);
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            box-shadow: 6px 5px 7px 1px rgb(114, 112, 112);
+        }
+        
+        nav>a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        
+        main {
+            margin: 10px;
+            padding: 10px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 20px 0px;
+            box-shadow: 4px 4px 9px 0px rgb(114, 112, 112);
+        }
+        
+        aside>p>:hover {
+            background-color: yellow;
+        }
+        
+        aside>p {
+            background-color: rgb(134, 132, 132);
+        }
+        
+        h1 {
+            box-shadow: 11px 10px 7px 1px rgb(114, 112, 112);
+        }
+        
+        h2 {
+            color: rgb(20, 20, 19);
+        }
+        
+        #noticias {
+            background-color: rgb(167, 164, 164);
+            padding: 40px;
+            margin: 20px;
+        }
+        
+        footer {
+            background-color: rgb(20, 20, 20);
+            color: rgb(245, 241, 234);
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Grouping Tags (TAG DE AGRUPAENTOS)
+    AS tags de agrupamentos são:
+    <div>
+    <span>
+    -->
+    <!--TAG SEMANTICAS PARA SEPARAÇÃO DE CONTEUDO DO SITE
+        <header>
+        <main>
+        <footer>
+        <section>
+        <article>
+        <aside>
+    -->
+    <header>
+        <h1>Meu site</h1>
+        <nav style="display: flex;">
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, provident consequuntur laudantium, deserunt deleniti porro incidunt a illo vel quisquam cupiditate repudiandae exercitationem facere laboriosam? Consectetur aliquam qui enim
+                    possimus.
+                </p>
+                <aside>
+                    <p>Artigo escrito por <em><ins>Jose da silva</ins></em>
+                    </p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+        <section>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido pelo Matheus &copy;</p>
+    </footer>
+</body>
+
+</html>
