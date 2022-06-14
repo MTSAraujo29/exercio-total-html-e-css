@@ -1,0 +1,30 @@
+.img{
+   background-image: url("../imagens/caveira.jpg");
+}
+
+.h1{
+    margin: 0;
+    text-align: center;
+}
+
+.h2{
+    margin: 0;
+    text-align: center;
+}
+
+.video{
+    margin: 0;
+    text-align: center;
+}
+
+.p1{
+    margin: 0;
+    text-align: center;
+}
+
+.texto{
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    color: blueviolet
+}

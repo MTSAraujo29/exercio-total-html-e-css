@@ -1,0 +1,13 @@
+ body{
+      background-image: url("..imagens/i.gif");
+}
+
+h1,h2{
+      font-family:Arial 
+      color gray;
+}
+				   
+P{
+font-family:verdana;
+color:red
+}

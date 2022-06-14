@@ -1,0 +1,235 @@
+UNIDADE 1
+
+-O QUE TERA NESSA UNIDADE
+
+*REDES DE COMPUTADORES
+*HISTORIA DA INTERNET
+*INFRAESTRUTURA DA INTERNET
+*EVOLUÇÃO DA INTERNET
+*NEGOCIOS ELETRONICOS
+*COMÉRCIO ELETRONICO
+
+- historia da internet
+
+redes de computadores são= componentes capazes de fornecer a troca de informação e o compartilhamento de recursos computacionais e interligados 
+por um sistema de comunicação.
+
+Para forma as redes são necessario hardware e software e também protocolos que são as regras.
+
+- Internet 
+
+trata-se de um sistema que conecta os computadores do mundo por meio de redes interligadas 
+
+WWW = significar World Wide Web traduzindo TEIA MUNDIAL ou seja e como podemos ultilizar a internet 
+
+- REDE DE COMPUTADORES 
+
+Primeira rede computadores inventada foi em 1967 pelo EUA em meio da guerra fria e o nome dado pela essa rede foi 
+ARPANET Advanced Research Projects Agency Network traduzindo (rede de agencia para projetos de pesquisa avançadas)
+e a ARPA foi a prepusora da internet.
+
+Foram interligados tres pontos de computadores em comunicação em 1969 no EUA 
+-1º em universidade da california 
+-2º Stanford Research 
+-3º Universidade de UTAH
+-4º e em santa barbara 
+assim formando um ponto de comunicação entre eles.
+
+Protocolo que a ARPA foi cirando em 1971 pelo grupo (NWG) Network working Group 
+e ficou conhecido esse protocolo como NCP network control Protocol.
+
+Em 1973 Robert Kahn da ARPA e Vint Cerf da universidade de Stanford escreveram um artigo onde estava a arquitetura basica que hoje conhecemos como a internet 
+e tambem em 1973 Vint Cerf Gererd Le Lann e Robert Metcalfe apresentam o projeto de procolo de controle de transmissão (TCP) que é utilizado até os dias 
+atuais. 
+
+Em 1983 o departamento de  defesa dos estados unidos decide separa a arpa net de militares e civis assim cirando a MILNET rede privada somento para fins militar
+e criando a ARPA-INTENET rede aberta fins universitarios.
+
+Em 1990 a ARPANET foi tirada de circulação porque sua tecnologia era obsoleta.
+
+-Navegadores de internet
+
+Um navegador de internet ou um browser e um programa que permiti que podemos acessar sites ou links .onde eles fazem comunicação com os servidores
+e processa os dados e informação.
+
+Na decada de 1990 Robert Cailliau e tim berners-lee desenvolveirao o WWW.
+
+Mosaic um navegador que foi lançado em 1993.
+
+Netscape foi titulado com o primeiro navegador comercializado em 1994.
+
+Em 1995 a microsoft que estava começando na sua crecente lançou o windows 95 e tambem laçanbdo seu proprio navegador a Internet Explorer.
+
+EM 1995 NO BRASIL temo a intenert comercial via embratel e tambem no mesmo ano a Mandic fornecer acesso a internet como o primeiro provedor
+
+Em 1996 o OUL foi criado.
+
+O IP (Internet Protocol) e um protocolo de regras onde ele opera em camadas de rede possibilitado acomunicação com as redes.
+
+O TCP e o portocolo de comunicação.
+
+
+-Evolução da Web
+
+Web 1.0 foi a primeira idea de rede de computadores.
+Web 2.0 já ela foi uma rede onde foi chamada de web colaborativa onde os proprio usuarios podea colaborar na propria criação de conteudos
+e nessa web 2.0 começa aparecer os blogs começam aparecer redes socias onde o usuario pode compartilha tecto audio vidoe etc.
+Web 3.0 nela surge a inteligencia artifial auxiliando muito , os conteudo começam a ser comercializada.
+Web semantica  nela as informaçõe sao classificada de modo padronizado com a intençao de que o acesso a els seja facilitado.
+
+
+
+
+
+UNIDADE 2
+
+-O QUE TERA NESSA UNIDADE
+
+*PROCESSO DE DESENVOLVIMENTO E PUBLICAÇÃO DE UM SITE
+*CRIAÇÃO DE PADROES PARA AS PAGINAS WEB
+*LINGUAGEM HTML
+*TIPOS DE NAVEGAÇÕES E DE PAGINAS WEB
+*FASES DO PROCESSO DE CRIAÇÃO DE SITES 
+*DESIGN DE NAVEGAÇOES E CARACTERISTICAS DESEJAVEIS PARAUM SITE 
+*PUBLICAÇÃO DE PAGINAS WEB SITES 
+*SEGURANÇA NA WEB
+*BRECHAS DE SEGURANÇA 
+*TIPOS DE ATAQUES NO AMBINTE WEB 
+*MAVARES
+
+
+
+-CRIAÇÃO DE PADROES PARA AS PAGINAS WEB
+* O uso de padroes para o desenvolvimento de sites diminui o tempo e a dificuldade no projeto e na
+execução da manutenção de paginas de internet fazendo a com que possa trazer uma produtividade 
+maior para um certo trabalho.Com os padroes podemos fazer coisas mais organizada ultilizado uma
+forma geral no mercado, e tambem atraves dos padroes podemos eliminar qualquer tipo de descriminalização 
+fazendo com que todos possa trabalha num site com as mesma oportunidades.
+
+-LINGUAGEM HTML
+
+* HTML que seria Hyper text markup language em portugues linguagem de marcação de hipertexto
+e uma essa linguagem ela e usada na criação e na formatação de textos ou tambem em definiçao da estrutura de
+documentos paraa web.E um forma de marcaçao por tag chamda tag language onde escrevemos comandos na forma de marcaçoes assim cahamdas tags 
+de forma geral as tags sao usadas aos pares delimitam o texto que sera formatado, atraves do html o desenvolvedor pode
+fazer mudança em fonte , tamanho cor e cria um hipertextos.
+
+*Nao e uma linguagem de programação porque não temos a compilação de um programa executável autônomo de extensao .exe por exemplo
+em ves disso o html e somento um arquivo em texto com extensao .htm ou .html que e lido e imterpretado por um navegador e esse navegador ler o 
+codigo que e responsavel em exibir na tela aquilo que foi codificado no documento HTML.
+
+*Exemplo de liguagem que usadas em conjuto com HTML
+-JavaScript e VBSscript 
+-PH
+-Java
+
+*Estrutura de umdocumento HTML
+ 
+-Um documento HTML e dividido em seções e cada seção deve conter um tipo especifico de informação
+e um marcador para definição :
+
+*Inicio do documeto citado em <HTML>
+*Cabeçalho 
+*Titulo
+*corpo do documento 
+*fim do cdocumento 
+
+-As tags são usada como se fosse os comando em linguagen de programação convencional
+-Todos marcadores sao ultilizado em sinais de "<" e ">".
+-Não tem diferença entre uma tag maiusculo ou minusculo e a mesma coisa exemplo <BODY> OU <Body> ou tambem <body>.
+-As fontes em formatação <h> são até o nivel 6 e quanto maior o nivel meno o tamanho do texto.
+
+*HTML5
+
+-AS vantagens do HTML5 são:
+@Novos recursos baseados em HTML,CSS,DOM E JavaScript;
+@Redução da necessidade de plugins externos, como por exemplo : para o uso do Flash
+@Permissão da utilização de elmentos (TAGS) para substituir diversos cripts 
+@melhor manipulaça de erros 
+@Indendecia do sipositiov , ou seja as mesma marcçoes. 
+
+*Nova cabeçalho com nova tag no HTML5 chamda <HEADER> E TAMBEM UM NOVO RODA PE CHAMDO <FOOTER>.
+-HTML5 tags de audio <AUDIO> e video <VIDEO>.
+ 
+
+
+-TIPOS DE NAVEGAÇÕES E DE PAGINAS WEB
+
+*NAVEÇÃO ESTRUTURAL
+*NAVEGAÇAO ASSOCIATIVA 
+*NAVEGAÇAO UTILITARIA 
+
+-NAVEGAÇÃO ESTRUTURAL
+E uma navegação voltada em forma de hierarquia como por exmplo estou num site e entro na pagina de eletronicos depois em celulares depois por marcas , assim estou navegando por hieararquia
+
+-NAVEGAÇAO ASSOCIATIVA  
+Sera onde voce esta fazendo uma leitura de algo e clina no site e abre uma pagina onde voce poderam ler a materia completa
+
+-NAVEGAÇAO UTILITARIA 
+E uma navegação que ajuda o usuario e nao obedeçe nenhuma hier
+arquia.
+
+
+*Paginas web 
+-Paginas navegativas 
+-Paginas de conteudo
+-Paginas de funcioinais
+
+-WORD PRESS
+
+-FASES DO PROCESSO DE CRIAÇÃO DE SITES
+
+*São 11 fases decriação de um site;
+
+-Fase 1 Elaboração do  briefing que seria a idea geral como vai ser o site.
+-Fase 2 Envio de orçamento ao cliente.
+-Fase 3 Aprovação do orçamento do site.
+-Fase 4 Elaboração do esboço do site (próprietario da pagina web).
+-Fase 5 Envio do esboço ao cliente.
+-Fase 6 Aprovação do esboço do cliente.
+-Fase 7 Desenvolvimento do desing ou layout do site.
+-Fase 8 Desenvolvimento efetivo do site.
+-Fase 9 Realização de testes de validação do site.
+-Fase 10 definição das ferramentas usada para a admininstraçao e divulgação 
+do site das estrategias de marketing.
+-Fase 11 aprovação final do site pelo cliente.
+
+
+-DESIGN DE NAVEGAÇOES E CARACTERISTICAS DESEJAVEIS PARAUM SITE
+
+*Amplitude 
+*Profundidade
+
+-URL e o nome de domino do site  Uniform Resource Locator traduzido (localizador padrão de recursos) 
+
+-SEGURANÇA WEB
+
+*Conceitos de ataque e ameças 
+-Atacante (ou invasor) trata-se de que mtentea (ou consegue) violar a segurança de um sistema
+computacional intencionlmente.
+-Ameaça trata-se da possibilidade de havr uma violação de segurança de um sistema computacional , como
+por exemplo a descoberta de uma vulnerabilidade.
+-Ataque trata-se da tentativa de violação da segurança de um sistema computacional.
+
+-Tipos de ataque no ambiente web
+*Falsificaçã de e-mail.
+*Ataque de força bruta.
+*Desfiguração de págin (defacement)
+*Plugins.
+*Envenenamento de SEO (Search Engine Optimization) traduzindo (Motor de Otimização de Busca).
+*Engenharia social.
+*Fraude de antecipação de recursos (advance fee fraud) (fraude de taxa antecipada)
+Representação (scam) e farsas ou boatos (hoax)
+*Phishing
+*Pharming , smishing vishing e whaling.
+*Shoulder surfing
+
+-Violações são elas:
+*violçao de sigilo = quando se refere de duplicaçao de dados naop autorizados
+*violaçaio de integridade
+*violaçao de disponibilidade 
+*furto de serviço 
+*recusa de serviço 
+
+-MALWARES
+E a junção das palavras maliciuos e software

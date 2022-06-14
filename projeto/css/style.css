@@ -1,0 +1,13 @@
+.logo,
+.manchete,
+.link,{
+    margin: 0;
+    text-align: center;
+}
+
+.article{
+        text-align: center;
+        font-style: italic;
+        font-size: 20px;
+        color: blueviolet
+}

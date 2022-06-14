@@ -1,0 +1,18 @@
+.logo,
+.ale{
+    margin: 0;
+    text-align: center;
+}
+
+
+.texto{
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    color: blueviolet;
+}
+
+.link{
+    margin: 0;
+    text-align: center;
+}

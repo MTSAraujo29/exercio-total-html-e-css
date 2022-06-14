@@ -1,0 +1,22 @@
+.logo,
+.manchete,
+.headline,
+.video,
+.compra ,
+.formulario,
+.link,
+.compra{
+    margin: 0;
+    text-align: center;
+}
+
+.video {
+    margin: 0;
+    text-align: center;
+}
+
+.article {
+    text-align: center;
+    font-style: Arial;
+    font-size: 20px;
+}
