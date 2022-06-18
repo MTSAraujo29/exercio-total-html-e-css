@@ -16,10 +16,18 @@
             /*Tag border-collapse: collapse; QUE MESCLAR AS CELULAS*/
             border-collapse: collapse;
         }
+        /*Legenda da Tabela*/
+        
+        caption {
+            background-color: gainsboro;
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+        }
         
         td,
         th {
-            border: 3px dashed rgb(12, 231, 30);
+            border: 1px solid black;
             padding: 10px;
         }
         
@@ -40,20 +48,27 @@
     <!--
       Anatomia das Tabelas Grandes
        Table
+        O titulo da Tabela usamos a tag <CAPTION>
            THEAD
                TR, TD, TH
            TBODY
                TR, TD, TH
            TFOOT
                TR, TD, TH
+    
+        Scope e sinalizar se o conteudo esta na mesma linha ou coluna e usado somente em tag <TH>.       
     -->
     <table>
+        <caption>
+            População Das Unidades Federativas
+        </caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
+
         <tbody>
             <tr>
                 <td>São Paulo</td>
@@ -166,11 +181,13 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes </th>
+                <th scope="row">Total de Habitantes </th>
                 <td class="num"><strong>210.147.125</strong></td>
             </tr>
         </tfoot>
     </table>
 </body>
+
+</html>
 
 </html>
