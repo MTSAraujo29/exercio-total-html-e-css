@@ -15,6 +15,7 @@
             width: 500px;
             /*Tag border-collapse: collapse; QUE MESCLAR AS CELULAS*/
             border-collapse: collapse;
+            position: relative;
         }
         /*Legenda da Tabela*/
         
@@ -23,6 +24,16 @@
             font-size: 1.5em;
             font-weight: bold;
             padding: 10px;
+        }
+        
+        tbody>tr:nth-child(2n) {
+            background-color: rgb(206, 202, 202);
+        }
+        
+        thead>tr>th {
+            position: sticky;
+            top: 0;
+            background-color: gray;
         }
         
         td,
